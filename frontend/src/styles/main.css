@@ -1,0 +1,66 @@
+@font-face {
+    font-family: popMed;
+    src: url(../libs/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: popBold;
+    src: url(../libs/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: monTon;
+    src: url(../libs/fonts/Monoton-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    font-family: popMed;
+    color: inherit;
+}
+
+
+
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    color: white;
+}
+.logo p{
+    font-family: monTon;
+    font-size: 1.6rem;
+}
+.navWrap{
+    margin: 25px 70px 0;
+    background: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    zoom: 90%;
+}
+.links{
+    display: flex;
+    gap: 25px;
+    font-size: 1rem;
+}
+.Bttn-Omni{
+    background: #2A96FA;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 10px;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.titleSub{
+    font-family: monTon;
+    background: none;
+    color: black;
+}

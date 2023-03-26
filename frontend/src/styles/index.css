@@ -1,0 +1,13 @@
+.home-hero1{
+    height: 100vh;
+
+}
+.info-hero1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.title-hero1{
+    font-size: 3rem;
+    width: 400px;
+}
