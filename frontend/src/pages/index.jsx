@@ -11,11 +11,34 @@ export function Home (){
                 <div className="home-wrap-hero1">
                     <div className="info-hero1">
                         <h1 className="title-hero1">
-                        Seamlessly Manage Your <br />
-                        <span className="titleSub">
-                            Subscriptions 
-                        </span>
+                            Seamlessly Manage Your
                         </h1>
+                        <p className="titleSub">
+                        Subscriptions
+                        </p>
+                        <div className="subText-hero1">
+                            <p className="subText mar-2-t">
+                                Toping up your data or bills just
+                                got easier with us
+                            </p>
+                        </div>
+                        <div className="actionBttn">
+                            <button className="Bttn-Omni mar-2-t">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div className="img-hero">
+                        <div className="imgheroGridwrap">
+                            <div className="imggrids">
+                                <div className="imgrid1"></div>
+                                <div className="imgrid2"></div>
+                            </div>
+                            <div className="imggrids">
+                                <div className="imgrid3"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

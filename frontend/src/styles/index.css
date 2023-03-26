@@ -1,13 +1,59 @@
 .home-hero1{
     height: 100vh;
-
+    margin: 0 160px;
+    zoom: 90%;
+}
+.home-wrap-hero1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgheroGridwrap{
+    display: flex;
+    zoom: 88%;
+    gap: 30px;
 }
 .info-hero1{
     height: 100vh;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    width: 400px;
+    flex-direction: column;
+    padding-top: 8vh;
+}
+.img-hero{
+    padding-top: 30vh;
 }
 .title-hero1{
     font-size: 3rem;
-    width: 400px;
+}
+.titleSub{
+    font-family: monTon;
+    text-rendering: optimizeLegibility;
+    background: none;
+    color: black;
+    font-size: 3rem;
+}
+
+.imggrids{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 30px;
+}
+.imgrid1, .imgrid2, .imgrid3{
+    border-radius: 20px;
+    background-color: black;
+    width: 280px;
+}
+.imgrid1{
+    height: 320px;
+}
+.imgrid2{
+    height: 380px;
+}
+.imgrid3{
+    height: 520px;
+
 }

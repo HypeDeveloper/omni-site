@@ -33,7 +33,7 @@ nav{
     font-size: 1.6rem;
 }
 .navWrap{
-    margin: 25px 70px 0;
+    margin: 22px 70px 0;
     background: black;
     border-radius: 20px;
     display: flex;
@@ -59,8 +59,10 @@ nav{
     line-height: 24px;
 }
 
-.titleSub{
-    font-family: monTon;
-    background: none;
-    color: black;
+.subText{
+    font-size: 1.2rem;
+}
+
+.mar-2-t{
+    margin-top: 20px;
 }
