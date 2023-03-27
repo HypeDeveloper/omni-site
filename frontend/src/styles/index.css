@@ -1,5 +1,4 @@
 .home-hero1{
-    height: 100vh;
     margin: 0 160px;
     zoom: 90%;
 }
@@ -10,7 +9,7 @@
 }
 .imgheroGridwrap{
     display: flex;
-    zoom: 88%;
+    zoom: 82%;
     gap: 30px;
 }
 .info-hero1{
@@ -19,21 +18,15 @@
     justify-content: center;
     width: 400px;
     flex-direction: column;
-    padding-top: 8vh;
+    padding-top: 18vh;
 }
 .img-hero{
-    padding-top: 30vh;
+    padding-top: 28vh;
 }
 .title-hero1{
     font-size: 3rem;
 }
-.titleSub{
-    font-family: monTon;
-    text-rendering: optimizeLegibility;
-    background: none;
-    color: black;
-    font-size: 3rem;
-}
+
 
 .imggrids{
     display: flex;
@@ -56,4 +49,81 @@
 .imgrid3{
     height: 520px;
 
+}
+.about{
+    padding: 180px 0 120px;
+}
+.about_title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.about_subText{
+    text-align: center;
+    width: 550px;
+    padding-top: 40px;
+}
+.about_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about_imgWrap{
+    padding-top: 60px;
+    display: flex;
+    justify-items: center;
+    gap: 80px;
+}
+.about_imgBox{
+    height: 350px;
+    width: 220px;
+    border-radius: 50px;
+    background: black;
+}
+
+.services{
+    margin: 100px 120px;
+}
+.services_subText{
+    width: 500px;
+}
+.topImg_serGrid{
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+.services_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topImg_serGrid .serviceGrid_box:nth-child(1){
+    height: 180px;
+    width: 260px;
+    background-color: black;
+    border-radius: 20px;
+}
+.topImg_serGrid .serviceGrid_box:nth-child(2){
+    height: 280px;
+    width: 180px;
+    background-color: black;
+    border-radius: 20px;
+}
+.bottomImg_serGrid{
+    display: flex;
+    margin-top: 22px;
+    gap: 20px;
+    align-items: flex-start;
+}
+.bottomImg_serGrid .serviceGrid_box:nth-child(2){
+    height: 160px;
+    width: 240px;
+    background-color: black;
+    border-radius: 20px;
+}
+.bottomImg_serGrid .serviceGrid_box:nth-child(1){
+    height: 280px;
+    width: 200px;
+    background-color: black;
+    border-radius: 20px;
 }

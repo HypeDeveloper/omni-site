@@ -27,6 +27,9 @@ nav{
     z-index: 10;
     width: 100%;
     color: white;
+    background: black;
+    transition: 0.6s;
+    border: none;
 }
 .logo p{
     font-family: monTon;
@@ -65,4 +68,19 @@ nav{
 
 .mar-2-t{
     margin-top: 20px;
+}
+
+.titleSub{
+    font-family: monTon;
+    text-rendering: optimizeLegibility;
+    background: none;
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 300;
+
+}
+.header{
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: popBold;
 }
