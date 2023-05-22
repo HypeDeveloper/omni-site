@@ -1,0 +1,89 @@
+/* Home Section */
+.homeHeroOne{
+    display: flex;
+    justify-content: space-between;
+}
+.homeHeroOne .homeHeroInfo{
+    margin-top: 150px;
+    margin-left: 140px;
+    color: white;
+}
+.homeHeroInfo p{
+    padding: 40px 0 30px;
+    width: 400px;
+}
+.homeHeroImg .imgBox{
+    height: 100vh;
+    width: 600px;
+}
+
+
+/* About Section */
+.aboutUs_Wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 180px 180px;
+}
+.aboutUsIntro h1{
+    padding-bottom: 30px;
+}
+.aboutUs_Wrap p{
+ width: 450px;
+}
+
+
+/* Services Section */
+.Services{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.ServiceBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ServiceImg .imgBox{
+    width: 500px;
+    height: 480px;
+}
+.ServiceText h1{
+    width: 600px;
+    padding-bottom: 20px;
+}
+.ServiceText p{
+    width: 400px;
+    padding-bottom: 40px;
+}
+.ServiceText{
+    /* margin-right: 120px; */
+    margin-top: 60px;
+}
+
+
+/* Special Section */
+.specialWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.getInfos{
+    height: 550px;
+    width: 580px;
+    background: rgb(246, 246, 241);
+}
+.special{
+    padding:  200px  0 0 ;
+}
+.TextSection{
+    margin-top: 80px;
+    margin-right: 120px;
+}
+.TextSection h1{
+    width: 400px;
+}
+.TextSection p{
+    width: 500px;
+    padding: 30px 0 40px;
+}

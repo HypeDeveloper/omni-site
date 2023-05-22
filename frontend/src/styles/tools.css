@@ -1,0 +1,17 @@
+/* navbar */
+.navWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  30px 80px 20px;
+}
+.logo img{
+    width: 100px;
+}
+.linksWrap{
+    display: flex;
+    gap: 30px;
+}
+.linksWrap li a{
+    font-size: 0.93rem;
+}

@@ -1,86 +1,77 @@
 @font-face {
-    font-family: popMed;
-    src: url(../libs/fonts/Poppins-Medium.ttf);
+    font-family: PopMedium;
+    src: url(../assets/fonts/Poppins-Medium.ttf);
 }
 @font-face {
-    font-family: popBold;
-    src: url(../libs/fonts/Poppins-Bold.ttf);
+    font-family: PopBold;
+    src: url(../assets/fonts/Poppins-SemiBold.ttf);
 }
-@font-face {
-    font-family: monTon;
-    src: url(../libs/fonts/Monoton-Regular.ttf);
-}
+
 *{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
     margin: 0;
     padding: 0;
-    outline: none;
-    text-decoration: none;
-    font-family: popMed;
-    color: inherit;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+html{
+    background: black;
+}
 
+h1{
+    font-family: PopBold;
+    text-transform: capitalize;
+    font-size: 4rem;
+    line-height: 80px;
+
+}
+p{
+    font-family: PopMedium;
+    line-height: 30px;
+    font-size: 1.1rem;
+}
+
+a{
+    font-family: PopMedium;
+}
 
 nav{
+    color: white;
     position: fixed;
-    top: 0;
-    z-index: 10;
     width: 100%;
-    color: white;
-    background: black;
-    transition: 0.6s;
+    z-index: 20;
+    top: 0;
+    /* background: transparent; */
+    backdrop-filter: blur(30px);
+}
+
+button{
+    font-family: PopBold;
+    padding: 10px 28px;
+    font-size: 0.95rem;
+    background: white;
     border: none;
-}
-.logo p{
-    font-family: monTon;
-    font-size: 1.6rem;
-}
-.navWrap{
-    margin: 22px 70px 0;
-    background: black;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    zoom: 90%;
-}
-.links{
-    display: flex;
-    gap: 25px;
-    font-size: 1rem;
-}
-.Bttn-Omni{
-    background: #2A96FA;
-    color: white;
-    width: fit-content;
-    height: fit-content;
-    border: none;
-    padding: 10px 22px;
-    border-radius: 10px;
-    font-size: 1rem;
-    line-height: 24px;
-}
-
-.subText{
-    font-size: 1.2rem;
-}
-
-.mar-2-t{
-    margin-top: 20px;
-}
-
-.titleSub{
-    font-family: monTon;
-    text-rendering: optimizeLegibility;
-    background: none;
+    border-radius: 100px;
     color: black;
-    font-size: 3.5rem;
-    font-weight: 300;
-
+    text-transform: capitalize;
 }
-.header{
-    font-size: 3.5rem;
-    font-weight: 900;
-    font-family: popBold;
+
+
+
+/* MOdes */
+.darkMode{
+    color: white;
+}
+
+/* colors */
+.red{
+    color: #F92F83;
+}
+.yellow{
+    color: #FDCF57;
+}
+.imgBox{
+    background: gray;
 }

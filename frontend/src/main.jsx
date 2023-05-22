@@ -1,12 +1,19 @@
-import React, { useEffect, useState } from 'react'
-import ReactDOM from 'react-dom/client'
-import {BrowserRouter, Outlet, Route, Routes} from 'react-router-dom'
-import { Loading } from './components/loading'
-import { Home } from './pages'
+// main file to render react doc.
+// 5 - 22 - 23
 
-// Styles
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom'
+
+// styles
 import './styles/main.css'
-import './styles/index.css'
+import './styles/tools.css'
+import './styles/pages/landingPage.css'
+
+// utils
+import { Button } from './tools/utils'
+import { Navbar } from './tools/navbar'
+import Home from './pages/landing pages/home'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,31 +22,24 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 
 
-function App(){
-  return(
+function App() {
+  return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Layout/>}>
-          <Route index element={<Home/>}/>
+        <Route path='/' element={<LayoutLandingPage/>}>
+            <Route index element={<Home/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
   )
 }
 
-function Layout(){
-    const [loading, setLoading] = useState(true)
 
-    useEffect(()=>{
-      setTimeout(()=>{
-        setLoading(false)
-      }, 2000)
-    }, [])
-
-    return(
-        <>
-          {loading ? <Loading/> : <></>}
-          <Outlet/>
-        </>
-    )
+function LayoutLandingPage(){
+  return(
+    <>
+      <Navbar/>
+      <Outlet/>
+    </>
+  )
 }
